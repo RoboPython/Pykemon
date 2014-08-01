@@ -35,6 +35,8 @@ class Item:
         self.step = 0 #which index of the path list that the item is currently working on
         self.gone = 0 #number of steps taken already toward path[step]
 
+        #github test
+
     def move(self, direction):
         """Move the item one tile in the desired direction given by a direction vector (2-tuple). It will 
         return true if the item is able to move in that direction. It will return false if it runs into an 
